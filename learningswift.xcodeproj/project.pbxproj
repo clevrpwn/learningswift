@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 47;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -164,6 +164,7 @@
 				TargetAttributes = {
 					43BCBEC51B04480300EF9D91 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = GC98YWWP8W;
 					};
 					43BCBEDC1B04480300EF9D91 = {
 						CreatedOnToolsVersion = 6.4;
@@ -172,7 +173,7 @@
 				};
 			};
 			buildConfigurationList = 43BCBEC11B04480300EF9D91 /* Build configuration list for PBXProject "learningswift" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 6.3";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -346,6 +347,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = learningswift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -356,6 +358,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = learningswift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -415,6 +418,7 @@
 				43BCBEE91B04480300EF9D91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		43BCBEEA1B04480300EF9D91 /* Build configuration list for PBXNativeTarget "learningswiftTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +427,7 @@
 				43BCBEEC1B04480300EF9D91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
